@@ -6,6 +6,9 @@ files:
   - source: /js
   - source: /scripts
     destination: /var/www/html/	    
+    destination: /var/www/html/	  
+    destination: /var/www/html/	  
+    destination: /var/www/html/	  
 hooks:	
   BeforeInstall:	 
     - location: /scripts/install_dependencies	   
