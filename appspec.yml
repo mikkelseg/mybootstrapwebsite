@@ -3,6 +3,8 @@ os: linux
 files:	
   - source: /index.html	 
   - source: /css
+  - source: /js
+  - source: /scripts
     destination: /var/www/html/	    
 hooks:	
   BeforeInstall:	 
